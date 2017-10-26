@@ -1,3 +1,277 @@
 /*
  * Estilos de tu proyecto
  */
+
+ /* font-family: 'Montserrat', sans-serif;*/
+
+ /* general specification */
+ * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0 auto;
+
+}
+
+
+ #container{
+ 	/*outline: 2px solid blue;*/
+ 	display: inline-block;
+ 	width: 100%;
+ 	height: 116px;
+ }
+ #logo{
+ 	/*outline: 2px solid green;*/
+ 	display: inline-block;
+ 	height: 48px;
+ 	width: 68px;
+ 	margin-left: 83px;
+ 	margin-top: 25px;
+ 	background-image: url(../assets/images/logo-white.png);
+ 	background-size: 100%;
+ }
+
+ .menu{
+ 	/*outline: 2px solid red;*/
+ 	font-family: 'Montserrat', sans-serif;
+ 	font-size: 18px;
+ 	font-weight: 100;
+ 	line-height: 50px;
+ 	display: inline-block;
+ 	float: right;
+ 	height: 70px;
+ 	width: 450px;
+ 	margin-top: 25px;
+ 	margin-right: 80px;
+ 	color: white;
+ }
+ #log{
+ 	border-style: solid;
+ 	border-color: white;
+ 	border-width: 1px;
+ 	border-radius: 5px;
+ 	height: 45px;
+ 	width: 100px;
+ 	text-align: center;
+ }
+ p{
+ 	/*outline: 2px solid yellow;*/
+ 	display: inline-block;
+ 	margin-right: 40px;
+ 	margin-bottom: 0px;
+ 	line-height: 40px;
+
+ }
+ #sectionOne{
+ 	/*outline: 2px solid black;*/
+ 	height: 536px;
+ 	width: 100%;
+ 	background-image: url(../assets/images/hero.gif);
+ 	background-size: contain;
+ }
+
+ #turn{
+ 	/*outline: 2px solid red;*/
+ 	height: 420px;
+ 	width: 560px;
+ 	float: right;
+ 	background-color: white;
+ }
+
+ .tit{
+ 	text-transform: uppercase;
+ }
+
+ .one{
+ 	/*outline: 2px solid green;*/
+ 	font-size: 40px;
+ 	font-weight: 500;
+ 	color: #352384;
+ 	margin-left: 64px;
+ }
+
+ .two{
+ 	/*outline: 2px solid red;*/
+ 	font-size: 15px;
+ 	letter-spacing: 0px;
+ 	font-weight: 500;
+ 	color: #352384;
+ 	margin-left: 64px;
+ 	padding-top: 0px;
+ 	margin-top: 0px;
+
+ }
+ .formu{
+ 	border-style: none;
+ 	color:#AAAAAA;
+ 	margin-left: 64px;
+ 	margin-top: 30px;
+ }
+ .line{
+ 	background-color:  #352384;
+ 	border-style: none;
+ 	height: 1px;
+ 	width: 430px;
+ 	margin-left: 64px;	
+ }
+
+#bottomBecome{
+	outline: 2px solid yellow;
+	font-weight: 300;
+	font-size: 16px;
+	height: 50px;
+	width: 167px;
+	background-color: #FF00BF;
+	color: white;
+	font-size: 16px;
+	border-radius: 5px;
+	margin-left: 64px;
+	margin-top: 36px;
+	text-align: center;
+	padding-top: 0px;
+
+}
+#botAndSign{
+	outline: 2px solid black;
+}
+
+/* diseño de la segunda seccion */ 
+#sectionTwo{
+	/*outline: 2px solid yellow;*/
+	background: linear-gradient(#691B84, #2B1E66);
+	height: 640px;
+	width: 100%;
+
+}
+
+.caja{
+	/*outline: 2px solid blue;*/
+	height: 130px;
+	width: 500px;
+	margin-left: 157px;
+}
+
+.dos{
+	margin-top: 28px;
+}
+
+.titDiv{
+	font-size: 30px;
+	color: white;
+	text-transform: uppercase;
+	margin-top: 90px;
+	line-height: 25px;
+}
+
+.cajatext{
+	line-height: 26px;
+	font-size: 15px;
+	color: white;
+	font-weight: 300;
+}
+
+.cajtext{
+	/*outline: 2px solid white;*/
+	width: 
+}
+.mg{
+	margin-top: 120px;
+}
+
+.imgCelu{
+	height: 480px;
+	width: 450px;
+	/*outline: 2px solid white;*/
+	background: url(../assets/images/phone.png);
+	background-size: contain;
+	position: absolute;
+	top:612px;
+	left: 730px;
+}
+
+
+
+
+
+
+.videoSection{
+	height: 500px;
+	width: 100%;
+	background-color: white;
+	/*outline: 2px solid red;*/
+	float: left;
+	overflow: hidden;
+
+}
+
+.textDiv{
+	/*outline: 2px solid green;*/
+	height: inherit;
+	width: 400px;
+	margin-left: 55px;
+	float: left;
+		overflow: hidden;
+}
+
+.smallTitle{
+	font-size: 8px;
+	text-transform: uppercase;
+}
+
+.principalTitle{
+	font-size: 30px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-top: -30px;
+}
+
+.bodyText{
+	font-size: 16px;
+	font-weight: 300 bold;
+	line-height: 25px;
+	color: #0B0B0B;
+}
+
+.videoBox{
+	float: left;
+
+}
+
+.videoBoxRight{
+	float: left; 
+	
+}
+
+.second{
+	float: right;
+	
+}
+
+
+/* diseño footer */
+.foot{
+	outline: 2px solid black;
+	height: 543px;
+	width: 100%;
+	
+	top: 1500px;
+	background-color: #333447;
+}
+
+.titFot{
+	color: white;
+	text-transform: uppercase;
+	font-size: 23px;
+	margin-top: 0px;
+
+}
