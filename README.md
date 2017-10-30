@@ -90,3 +90,16 @@ Este reto será evaluado sobre lo siguiente:
 * Indentación
 * Archivo `README.md` actualizado y correctamente redactado
 * Uso de comentarios para hacer tu código más legible
+
+------------------------------------------------------------------------
+## Modificacion archivo 
+
+* El reto consistia en duplicar en "perfect pixel" la pagina de Lyft, para esto se trabajo bajo dos archivos, un index.html y un main.css, con el primero se da la estructura de nuestra pagina web mientras que con el archivo css damos estilo a esta. 
+
+* Respecto al archivo HTML. 
+Se uso la estructura semantica header y section para diferenciar las partes que se distinguian en la pagina. No se usó footer como estructura porque la pagina tendio a tener comportamiento espacial al usar esta estructura (no se si por error 400 o que ). Dentro de cada seccion se usaron divs para la organizacion de la informacion y por la facilidad que estos dan para poder mover y situar textos, imagenes o videos dentro de la pagina, ademas que es de los recursos que mas dominio tenemos. 
+Se usaron clases y id para poder dar estilo, el nombramiento fue muy complejo, ya que hay momemtos en que la creatividad no funciona. Un punto importante aqui que llevo a un error en cierto punto del desarrollo fue que en un principio se habia declarado una clase y avanzada la pagina se volvio a reescribir el valor de esta, sin percatarse que ya tenia parametros definidos antes, por lo que un extracto de la pagina tenia un comportamiento extraño, el error claramente fue corregido pero sirvió para tomar el peso del nombramiento de clases. 
+
+* Respecto a main.css. 
+Se usaron recursos de css como manejo de estilos de fuente, su grosor, tamaño, tambien transformaciones que se pueden realizar a estas. Manejo de elementos de formulario, focus, placeholder y pseudo clases dentro de la creacion de estos. Manejo de elementos como background y como acomodar el tamaño de la imagen segun el requerimiento. 
+Se ordenó el css de igual forma que el archivo html que fue por secciones, todos los estilos que fueron aplicados dentro de una seccion se englobaron en un comnetario inicial que señala donde comienza. 
